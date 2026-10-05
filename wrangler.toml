@@ -1,0 +1,5 @@
+# Cloudflare Pages project for batesav.com (static site, no Functions yet).
+# Deploy: npm run build && npx wrangler pages deploy dist --project-name=batesav
+name = "batesav"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-01"

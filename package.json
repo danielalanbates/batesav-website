@@ -1,0 +1,17 @@
+{
+  "name": "batesav-website",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Daniel Bates / Bates LLC <help@batesai.org> (https://batesai.org)",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "node scripts/check-dist.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.16.0"
+  }
+}
