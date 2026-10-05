@@ -107,10 +107,11 @@ const systems = [
     </div>
   </section>
 
-  <section class="wrap overview" id="services" aria-labelledby="services-title">
+  <section id="services" aria-labelledby="services-title">
+  <div class="wrap overview">
     <h2 id="services-title">Production help for teams that run on volunteers.</h2>
     <p>Hands-on help with the whole signal chain: microphones to speakers, cameras to the stream, lyrics to every screen.</p>
-  </section>
+  </div>
 
   <div class="wrap service-grid">
     {services.map((s) => (
@@ -125,6 +126,7 @@ const systems = [
       </article>
     ))}
   </div>
+  </section>
 
   <section class="wrap approach" id="approach" aria-labelledby="approach-title">
     <div>
@@ -154,7 +156,7 @@ const systems = [
           </div>
         </div>
         <div class="tool-body">
-          <div class="card-tags"><span class="tag">ProPresenter</span><span class="tag">Open source</span><span class="tag">macOS</span></div>
+          <div class="card-tags"><span class="tag">ProPresenter</span><span class="tag">Free for churches</span><span class="tag">macOS</span></div>
           <h3>AutoLyrics for ProPresenter</h3>
           <p>Listens to the room, recognizes the lyric being sung and advances ProPresenter slides in real time, so a missed cue does not leave the congregation guessing.</p>
           <a class="text-link" href="https://github.com/danielalanbates/auto-lyrics-pro-presenter" target="_blank" rel="noopener">View on GitHub
@@ -330,7 +332,7 @@ const systems = [
     font-weight: 800; font-size: 14px; text-underline-offset: 4px;
   }
   .text-link svg { width: 16px; height: 16px; }
-  .text-link:hover { color: var(--tally); }
+  .text-link:hover { color: var(--tally-text); }
   .systems-card { padding: 24px; }
   .systems-card h3 { margin-bottom: 16px; }
   .systems-list { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; }

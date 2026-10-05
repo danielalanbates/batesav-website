@@ -11,6 +11,9 @@ dist/
 *.local.*
 private/
 secrets*.json
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
 
 # macOS
 .DS_Store

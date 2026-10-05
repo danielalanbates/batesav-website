@@ -34,9 +34,8 @@ const jsonLd = {
   description: SITE.description,
   email: SITE.email,
   areaServed: SITE.region,
-  founder: { '@type': 'Person', name: SITE.owner },
+  founder: { '@type': 'Person', name: SITE.owner, sameAs: [SITE.github] },
   parentOrganization: { '@type': 'Organization', name: SITE.company, url: SITE.sister.url },
-  sameAs: [SITE.github, SITE.sister.url],
 };
 ---
 
@@ -138,7 +137,7 @@ const jsonLd = {
     color: var(--paper); background: var(--ink); text-decoration: none;
     font-size: 14px; font-weight: 800;
   }
-  .nav-cta:hover { background: var(--tally); border-color: var(--tally); color: #fff; }
+  .nav-cta:hover { background: var(--tally); border-color: var(--tally); color: #121412; }
 
   .site-footer { border-top: 1px solid var(--line); margin-top: 24px; }
   .footer-inner {
@@ -161,6 +160,7 @@ const jsonLd = {
     }
     .nav-links::-webkit-scrollbar { display: none; }
     .nav-links a { min-height: 36px; padding: 6px 10px; font-size: 13px; white-space: nowrap; }
+    .nav-links a:focus-visible { outline-offset: -3px; }
     .footer-inner { grid-template-columns: 1fr; }
   }
 </style>

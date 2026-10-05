@@ -14,6 +14,7 @@
   --nav: rgba(248, 248, 245, .92);
   --tally: #e8432e;
   --tally-soft: #ffd9d1;
+  --tally-text: #c7321f; /* red that passes 4.5:1 as text on paper */
   --amber: #ffb627;
   --green: #3fbf6a;
   --blue: #4d78ff;
@@ -39,6 +40,7 @@
     --nav: rgba(15, 17, 15, .92);
     --tally: #ff5a43;
     --tally-soft: #4a1d16;
+    --tally-text: #ff5a43;
     --amber: #ffc54d;
     --green: #56d483;
     --blue: #7e9bff;
@@ -109,6 +111,10 @@ h1, h2, h3, p { margin-top: 0; }
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+
+@media (max-width: 760px) {
+  html { scroll-padding-top: 108px; } /* header wraps to two rows (~97px) */
 }
 
 @media (max-width: 480px) {
