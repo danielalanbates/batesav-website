@@ -22,7 +22,7 @@ His answers to the setup questions: business voice is "we"; future services show
 | No church name, budgets, people or vendor names on the site | Privacy. The page names only the role (church technical manager, Tri-Cities) and its general duties; Daniel approved that About text on 2026-10-05 |
 | LinkedIn = `https://www.linkedin.com/in/danielalanbates` | Daniel wrote `linkedin.com/danielalanbates`; that form 404s, and profile URLs use `/in/`. LinkedIn blocks automated checks (HTTP 999), so confirm it opens his profile |
 | Placeholder prices, three packages | Daniel chose "packages with starting prices" but has not set prices. Live Sound / Sound + Recording (recommended) / Sound, Recording + Broadcast. Change names, inclusions and prices in the `packages` array |
-| AutoLyrics section removed | The site now sells event services; AutoLyrics is still named in the About text |
+| No AutoLyrics anywhere on the site | Daniel, 2026-10-05: it isn't finished, so it must not be mentioned. Do not add it back until he says it is ready |
 | No testimonials, client logos or years of experience | None were supplied, and inventing them would be dishonest. Add real ones when Daniel provides them |
 | Region "Tri-Cities, Washington" | batesai.org already publishes Tri-Cities work. Edit `SITE.region` if he wants a wider service area |
 | Not deployed, domain not bought | Buying the domain needs Daniel's payment details and his decision. Deploying would publish content he has not reviewed |

@@ -52,7 +52,7 @@ Build outside cloud-synced folders. Builds inside iCloud or Google Drive hang or
 | Type | Fraunces (serif display, italic kickers and numerals) + Source Sans 3 (body). No monospace |
 | Colour | Warm linen paper, espresso ink, hymnal teal (`--primary`), copper ornaments (`--accent`, graphics only; copper text uses `--accent-text`). Dark mode is warm walnut with cream text |
 | Motifs | One hand-drawn sound-wave path reused everywhere; small-caps folios on hairlines ("1 · Services"); italic numerals; dotted leaders; one full-width teal band with wave edges |
-| Art | CSS/SVG line art only: stage arch with screen, mic and speaker arcs; six service icons; an AutoLyrics stage-display drawing. No photos |
+| Art | CSS/SVG line art only: stage arch with screen, mic and speaker arcs; service and roadmap icons. No photos |
 | Mark | Teal seal with a Fraunces "B" (outlined path) and copper speaker arcs: `public/favicon.svg`, `apple-touch-icon.png` |
 
 Motion (wave draw-in, arc pulse, level bars) runs only under `prefers-reduced-motion: no-preference`.
